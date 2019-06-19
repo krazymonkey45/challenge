@@ -7,16 +7,21 @@
  </head>
 <body>
   <div class="container">
-    <h1></h1>
+    <h1 id="myHeading"> Goat</h1>
     <p class="desc"></p>
-    <ul>
-      <li><input> Sky Diving</li>
-      <li><input> Learn French</li>
-      <li><input> Explore the worlld</li>
-      <li><input> Code AI</li>
+    <script> 
+    document.getElementById(myHeading).innerHTML = "I'm the goat!";
+    </script>
+    <ul class="ulClass">
+      <li><input type="checkbox"> Sky Diving</li>
+      <li><input type="checkbox"> Learn French</li>
+      <li><input type="checkbox"> Explore the worlld</li>
+      <li><input type="checkbox"> Code AI</li>
+      <li><input type="checkbox"> Fortnite</li>
     </ul>
     <div class="extra">
       <p>This is extra content you need to delete.</p>
+      <button>DELETE</button>
     </div>
   </div>
   <script src="js/scripts.js"></script>
